@@ -50,7 +50,7 @@ export default function TreeNodeInput({
 		}
 
 		initWeight();
-		initValue()
+		initValue();
 	}, []);
 
 	return (

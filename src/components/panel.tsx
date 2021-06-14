@@ -34,7 +34,7 @@ export default function Panel({
 						<TreeNodeInput
 							index={index}
 							data={node}
-							key={index}
+							key={`${node.name}-${node.weight}-${node.value}`}
 							onChange={(newNode: TreeNode) => onChangeList(updateList(list, newNode, index))}
 							onRemove={() => onChangeList(removeList(list, index))}
 						/>

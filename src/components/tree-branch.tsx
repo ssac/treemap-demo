@@ -23,7 +23,7 @@ export default function TreeBranch({
 		}}>
 			{data.map((node, index) => (
 				<TreeNodeUI
-					key={index}
+					key={`${node.name}-${node.weight}-${node.value}`}
 					data={node}
 				/>
 			))}

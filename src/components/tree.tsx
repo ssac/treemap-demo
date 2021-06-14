@@ -9,10 +9,6 @@ import * as TreeUtils from '../utils/tree';
 import * as ListUtils from '../utils/list';
 
 import {
-	LIST_MAX_LENGTH
-} from '../configs/tree';
-
-import {
   TreeNode
 } from '../types';
 
