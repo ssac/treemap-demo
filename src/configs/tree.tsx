@@ -18,3 +18,5 @@ export const DEFAULT_NEW_NODE = {
 export const LIST_MAX_LENGTH = 50;
 
 export const NODE_NAME_MAX_LENGTH = 49;
+
+export const TREE_NODE_HEIGHT = 100;

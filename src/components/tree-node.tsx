@@ -1,6 +1,10 @@
 import React from 'react';
 
 import {
+	TREE_NODE_HEIGHT
+} from '../configs/tree';
+
+import {
   TreeNode
 } from '../types';
 
@@ -11,7 +15,7 @@ export default function TreeNodeUI({
 }) {
 	return (
 		<div style={{
-			height: 100, 
+			height: TREE_NODE_HEIGHT, 
 			flex: data.weight, 
 			backgroundColor: data.value >= 0 ? 'green' : 'red',
 			alignItems: 'center',
